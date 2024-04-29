@@ -5,7 +5,7 @@ function ScrollToSection() {
   const data = [
     {
       id: 1,
-      label: 'First section',
+      label: 'Section',
       style: {
         width: '100%',
         height: '600px',
@@ -14,7 +14,7 @@ function ScrollToSection() {
     },
     {
       id: 2,
-      label: 'First section',
+      label: 'Section',
       style: {
         width: '100%',
         height: '600px',
@@ -23,7 +23,7 @@ function ScrollToSection() {
     },
     {
       id: 3,
-      label: 'First section',
+      label: 'Section',
       style: {
         width: '100%',
         height: '600px',
@@ -32,7 +32,7 @@ function ScrollToSection() {
     },
     {
       id: 4,
-      label: 'First section',
+      label: 'Section',
       style: {
         width: '100%',
         height: '600px',
@@ -41,7 +41,7 @@ function ScrollToSection() {
     },
     {
       id: 5,
-      label: 'First section',
+      label: 'Section',
       style: {
         width: '100%',
         height: '600px',
@@ -50,7 +50,7 @@ function ScrollToSection() {
     },
     {
       id: 6,
-      label: 'First section',
+      label: 'Section',
       style: {
         width: '100%',
         height: '600px',
@@ -73,7 +73,7 @@ function ScrollToSection() {
       <button onClick={handleScrollToSection}>Click To Scroll</button>
       {data.map((item) => (
         <div
-          ref={item.id === 3 ? sectionRef : null}
+          ref={item.id === 5 ? sectionRef : null}
           key={item.id}
           style={item.style}
         >
