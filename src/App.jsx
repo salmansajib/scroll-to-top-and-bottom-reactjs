@@ -1,9 +1,10 @@
 import './App.css';
+import ScrollToTopAndBottom from './components/ScrollToTopAndBottom';
 
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <ScrollToTopAndBottom />
     </>
   );
 }
